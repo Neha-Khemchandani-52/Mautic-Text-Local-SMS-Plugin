@@ -5,17 +5,23 @@ Intended for >= Mautic 4.0
 ## Installation by console
 1. Download this folder "MauticTextlocalBundle", unzip in your plugins folder
 2. Run below commands in terminal step by step :
+
     • sudo chmod -R 777 plugins/MauticTextlocalBundle (For giving permission)
+    
     • sudo php bin/console cache:clear (For clearing cache)
+    
     • sudo php bin/console mautic:plugins:install (For installing plugin using terminal command)
+    
     • sudo php bin/console mautic:plugins:reload (For reloading plugin using terminal command)
-	
-	                                OR
-				       
-2. You can install it through Mautic Web Interface : 
+    
+       Or you can install it through Mautic Web Interface :
+    
     • Go to the Configuration -> Plugins Settings, in Mautic web interface.
+    
     • Click on Install/Upgrade Plugins.
+    
     • The plugin should now be available for configuration.
+    
 
 ## Usage
 1. Go to your **Plugins** in Mautic UI
