@@ -1,21 +1,21 @@
 # Mautic-Text-Local-SMS-Plugin
-Developed  this Text Local SMS plugin in Mautic which is alternative to Twilio plugin available in Mautic.This plugin replaces the SMS channel and allows you to send messages through Textlocal Sms api using the Textlocal Sms Web application.
+Developed this Text Local SMS plugin in Mautic which is alternative to Twilio plugin available in Mautic.This plugin replaces the SMS channel and allows you to send messages through Textlocal Sms api using the Textlocal Sms Web application.
 Intended for >= Mautic 4.0
 
 ## Installation by console
 1. Download this folder "MauticTextlocalBundle", unzip in your plugins folder
 2. Run below commands in terminal step by step :
-a) sudo chmod -R 777 plugins/MauticTextlocalBundle (For giving permission)
-b) sudo php bin/console cache:clear (For clearing cache)
-c) sudo php bin/console mautic:plugins:install (For installing plugin using terminal command)
-d) sudo php bin/console mautic:plugins:reload (For reloading plugin using terminal command)
-
-	                                                                  OR
-									  
+    • sudo chmod -R 777 plugins/MauticTextlocalBundle (For giving permission)
+    • sudo php bin/console cache:clear (For clearing cache)
+    • sudo php bin/console mautic:plugins:install (For installing plugin using terminal command)
+    • sudo php bin/console mautic:plugins:reload (For reloading plugin using terminal command)
+	
+	                                OR
+				       
 2. You can install it through Mautic Web Interface : 
-a) Go to the Configuration -> Plugins Settings, in Mautic web interface.
-b) Click on Install/Upgrade Plugins.
-c) The plugin should now be available for configuration.
+    • Go to the Configuration -> Plugins Settings, in Mautic web interface.
+    • Click on Install/Upgrade Plugins.
+    • The plugin should now be available for configuration.
 
 ## Usage
 1. Go to your **Plugins** in Mautic UI
