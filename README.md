@@ -25,5 +25,5 @@ Intended for >= Mautic 4.0
 
 ## Usage
 1. Go to your **Plugins** in Mautic UI
-2. You should see new Textlocal plugin in the list, click and publish it.
+2. You will see new Textlocal plugin in the list, click and publish it.
 3. This plugin overrides your SMS transport. In your **Configuration > Text message settings** select Textlocal as default transport and enter you texlocal API key for using it to send text messages to users.
